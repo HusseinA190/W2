@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    padding:0;
+}
+*{
+    font-family:"Monaco";
+    font-weight:bold;
+    text-transform: capitalize;
+    padding:0;
+    margin:0;
+}
+
+.main{
+    height:100vh;
+    width:100%;
+    background-image:url("gustavo-zambelli--bFU6ZIwCE4-unsplash.jpg");
+    /* color:white; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main .sub{
+    padding:20px 35px;
+    background-color:black;
+}
+
+.main .sub ul{
+    width:70%;
+    display:flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size:20px;
+    color:white
+}
+
+.main .sub ul li{
+    transition:color .7s ease .3s;
+
+}
+
+.main .sub ul li:hover{
+    color:gold;
+    cursor:pointer
+}
+
+.cover{
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.main_content{
+    color:white;
+    padding:10px 30px;
+    font-size:60px;
+    margin:300px auto;
+    width:fit-content
+}
